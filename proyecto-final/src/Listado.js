@@ -3,8 +3,8 @@ import React from "react";
 function Listado(){
     return(
         <div className="col">
-            <h2>Pcientes Registrados</h2>
-            <p>Administra los Pacientes Registrados</p>
+            <h2 className="text-center fw-bold">Pacientes Registrados</h2>
+            <p className="text-center">Administra los Pacientes Registrados</p>
         </div>
     )
 }
