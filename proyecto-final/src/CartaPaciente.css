@@ -1,0 +1,23 @@
+.btnEditar{
+    background-color: rgb(5, 127, 226);
+    color: white;
+    font-weight: bold;
+}
+
+.btnEditar:hover{
+    background-color: rgb(130, 191, 219);
+    color: black;
+    border-color: rgb(5, 127, 226);
+}
+
+.btnEliminar{
+    background-color: rgb(240, 24, 16);
+    color: white;
+    font-weight: bold;
+}
+
+.btnEliminar:hover{
+    background-color: rgb(241, 154, 148);
+    color: black;
+    border-color: rgb(240, 24, 16);
+}

@@ -61,7 +61,7 @@ function Registro({pacientes,setPacientes}){
                 <textarea value={sintomas} onChange={(e)=>{setSintomas(e.target.value)}} rows="4" cols="50" placeholder="Ingrese los sintomas del Paciente" className="w-100"></textarea>
             </div>
             <div className="col-12 col-md-4">
-                <button type="submit" class="btn btn-success w-100">Guardar Paciente</button>
+                <button type="submit" class="btn btnConfirmar w-100">Guardar Paciente</button>
             </div>
         </form>
     </div>
